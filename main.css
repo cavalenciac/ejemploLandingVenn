@@ -1,0 +1,253 @@
+:root {
+    --negroVenn: #002b39;
+}
+
+html{
+    font-family: 'Hind', Helvetica, Arial, Lucida, sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    font-family: Hind;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--negroVenn);
+    margin-block: 0px;
+}
+/*Logo centrado */
+#logoVenn{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
+}
+h1,h2{
+    text-align: center;
+    color: var(--negroVenn);
+    font-size: 35px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style:normal ;
+    letter-spacing: normal;
+    margin-block: 0px;
+    
+}
+h5{
+    font-family: Hind;
+    font-size: 27px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--negroVenn);
+    margin-block: 5px;
+}
+
+button{
+    display: block;
+    margin: auto;
+    padding: 15px 45px 11px 46px;
+    object-fit: contain;
+    box-shadow: 0 9px 12px 0 rgb(26 72 100 / 16%);
+    background-image: linear-gradient(to top, #007fff, #00b1ff -10%);
+    color: #FFFFFF;
+    border-width: 0 ;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #FFFFFF;
+}
+
+#seccionPrincipal{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("img/Grupo%209213.webp");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+    justify-content: center;
+}
+
+.tarjeta{
+   
+    display: grid;
+    grid-template-columns: 190px 370px 170px;
+    max-height: 850px;
+    max-width: 710px;
+   margin: auto;
+    border-radius: 10px;
+    border:rgb(232, 233, 240) 1px solid;
+    background-color: white;
+    
+}
+
+#t1>img{
+    width: 200px;
+    height: 200px;
+    grid-row: 1 / span 3;
+}
+
+#t2>p{
+   text-align: left;
+}
+
+
+#t3{
+    margin-top: 48px;
+   
+}
+
+#t7{
+    
+}
+
+#t8{
+   
+}
+
+    .tarjetas {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 400px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        align-content: space;
+       
+    }
+    /* justify-content: space-between;
+     */
+    
+
+ .tarjetaProductos{
+    
+    border-radius: 5px;
+    border:rgb(232, 233, 240) 1px solid;
+    margin: 10px;
+    padding: 40px;
+    height: auto;
+    box-shadow: 1px 5px 15px 8px #f1f5f8;
+   
+}
+
+
+ 
+
+.tarjetaProductos>img{
+    max-width: 300px;
+ 
+/*     align-content: center; */
+}
+
+
+
+.fila{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 600px;
+    margin: auto;
+    gap: 20px 20px;
+        
+}
+
+.tarjetaCaracteristica{
+  
+    text-align: center;
+    box-shadow: 1px 10px 10px #d6e4f0;
+    border:rgb(193, 195, 202) 1px solid;
+    border-radius: 10px;
+    width: 270px;
+    height: 100px;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+    }
+
+#c4{
+
+}
+
+.negritas{
+    font-weight: bolder;
+}
+
+.detallenumeros{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px 150px 30px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+     
+}
+
+.numeros{
+
+}
+/* #num1{
+  align-self: center;
+} */
+
+#num7{
+  
+    
+}
+
+#num3{
+    
+}
+
+#num4{
+    
+}
+#num5{
+    
+}
+
+#num6>h5{
+    margin: 30px;
+}
+
+#num7>img{
+    max-width: 400px;
+}
+
+#num8>h5{
+    margin: 30px;
+}
+#num9>img{
+    max-width: 400px;
+}
+#num10{
+    
+}
+footer{
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+
